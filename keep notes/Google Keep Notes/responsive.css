@@ -1,0 +1,9 @@
+@media screen and (max-width: 400px){
+    .note{
+        width: 100% ;
+        /* display: flex; */
+        flex-wrap: wrap;
+        flex-direction: column;
+        min-width: fit-content;
+    }
+}

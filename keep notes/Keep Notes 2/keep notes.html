@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Keep</title>
+    <link rel="stylesheet" href="keep_notes.css"> 
+    <link rel="icon" type="image/png" href="keep notes.png">
+    <script src="keep notes.js" defer></script>
+    
+</head>
+
+<body>
+    <!-- <header class="navbar" id="navbar" style="background-color: rgba(255,255,255,1)"></header> -->
+    <div class="wrapper">
+        <header class="navbar">
+            <div class="nav1">
+                <div class="div1">
+                    <div class="icon" aria-expanded="false" aria-label="Main menu" role="button">
+                        <img src="menu-of-three-lines.png" class="img1">
+                    </div>
+                    <div class="div1_1">
+                        <div class="div1_2" aria-label="Keep" title="keep">
+                            <img src="keep notes.png" class="img2" alt="true" role="presentation">
+                            <span>Keep</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="div2">
+                    <div class="div2_1"></div>
+                    <div class="div2_2">
+                        <form class="search" method="get" role="search">
+                            <button class="btn" aria-label="Close search" type="button"></button>
+                            <div class="div2_2_1">
+                                <input class="search1" aria-label="Search" autocomplete="off" placeholder="Search"
+                                    role="combobox" type="text">
+                            </div>
+                            <button class="btn2" aria-label="Search" role="button">
+                                <img src="loupe.png" class="img3">
+                            </button>
+                        </form>
+                    </div>
+                    <div class="div2_3">
+                        <div class="div2_3_1" style>
+                            <div class="div2b_1_1"></div>
+                            <div class="div2b_1_1_1" style="display: none;"></div>
+                            <div role="button" class="div2b_2_2" tabindex="0" aria-label="Refresh"
+                                style="user-select: none;">
+                                <!-- <img src="reload.png" class="img4"> -->
+                            </div>
+                        </div>
+                        <div role="button" class="div2b_4" aria-label="List view"></div>
+                        <div role="button" class="div2b_3" aria-label="settings" tabindex="0">
+                            <!-- <img src="settings.png" class="img5"> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="div3">
+                    <div class="div3_1">
+                        <div class="div3_1_1">
+                            <a class="div3_1_2" aria-label="Google apps"
+                                href="https://www.google.co.in/intl/en/about/products" role="button">
+                                <img src="menu.png" class="img5">
+                            </a>
+                        </div>
+                        <div class="div3_2">
+                            <div class="div3_2_1">
+                                <a class="div_3_2_2" aria-label="Google Account"
+                                    href="https://accounts.google.com/SignOutOptions?h1=en&continue=https://keep.google.com/&ec=GBRAiAE"
+                                    role="button">
+                                    <img src="profile-user.png " class="img6">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <hr>
+            </div>
+        </header>
+        <div class="div4" style="height: 64px ; display: block;"></div>
+    </div>
+
+    <div class="notes-container">
+        <div class="div5">
+            <div class="div5_1" style="display: block;">
+                <div class="div5_1_2">
+                    <div class="div5_1_1"></div>
+                    <div class="div5_1_2_1">
+                        <div class="icon1" role="button" tabindex="0" aria-label="Notes">
+                            <img src="keep.png" class="img7">
+                            <span class="text1">Notes</span>
+                        </div>
+                        <div class="icon2" role="button" tabindex="0" aria-label="Reminders">
+                            <img src="notification.png" class="img8">
+                            <!-- <span class="text2">Reminders</span> -->
+                        </div>
+                        <div class="icons">
+                            <div class="icon3" role="button" tabindex="0" aria-label="Direction Is More Imp Than Speed">
+                                <img src="right-arrow.png" class="img9">
+                                <!-- <span class="text3">Direction Is More Imp Than Speed</span> -->
+                            </div>
+                            <div class="icon4" role="button" aria-label="Edit Labels">
+                                <img src="pencil.png" class="img10">
+                                <!-- <span class="text4">Edit Labels</span> -->
+                            </div>
+                        </div>
+                        <div class="icon5" role="button" tabindex="0" aria-label="Archive">
+                            <img src="download-file.png" class="img11">
+                            <!-- <span class="text5">Archive</span> -->
+                        </div>
+                        <div class="icon6" role="button" tabindex="0" aria-label="Trash">
+                            <img src="recycle-bin.png" class="img12">
+                            <!-- <span class="text6">Trash</span> -->
+                        </div>
+                    </div>
+                    <div class="div5_2">
+                        <a href="https://ssl.gstatic.com/keep/licenses/web_client_licenses.txt" target="_blank"
+                        class="text7" tabindex="0">Open-source licenses</a>
+                    </div>
+                </div>
+            </div>
+            <div class="div6">
+                <div class="div6_1">
+                    <div class="div6_1_1">
+                        <div class="div6_1_2">
+                            <div class="div6_1_3">"Notes in Trash are deleted after 7 days."
+                                <div class="div6_1_4" role="button" aria-hidden="tru
+                                ">Empty Trash</div>
+                            </div>
+                        </div>
+                    </div>   
+                </div>
+                <div class="div6_2">
+                    <div class="div6_2_1">
+                        <div class="div6_2_1_1" role="button" aria-label="Select note" aria-disabled="false" tabindex="0">
+                        </div>
+                        <div class="div6_2_1_2"></div>
+                    </div>
+                    <div class="div6_2_2" role="button" aria-label="New List" aria-disabled="false" tabindex="0"></div>
+                    <div class="div6_2_3" role="button" aria-label="New note with drawing" aria-disabled="false" tabindex="0"></div>
+                    <div class="div6_2_4" role="button" aria-label="New note with image" aria-disabled="false" tabindex="0"></div>
+                    <div class="div6_2_5" role="button" aria-label="Magic List" aria-hidden="true"></div>
+                </div>
+
+                <!-- <div class="div6_3"> -->
+                  <div class="btn-div">
+                        <button class="learn-more" class="add" id="add">
+                          <span class="circle" aria-hidden="true">
+                            <span class="icon arrow"></span>
+                          </span>
+                          <span class="button-text">Add note</span>
+                        </button>
+                      </div>  
+                <!-- </div> -->
+
+                <div class="div6_4">
+
+                </div>
+
+                <div class="div6_5">
+
+                </div>
+                <div class="div6_6"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

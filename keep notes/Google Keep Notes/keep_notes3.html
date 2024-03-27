@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Keep</title>
+    <link rel="stylesheet" href="keep_notes3.css">
+    <!-- <link rel="stylesheet" media="screen and (max-width: 1170px)" href="keep_notes2.css"> -->
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="icon" type="image/png" href="keep notes.png">
+    <script src="keep_notes.js" defer></script>
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="nav1">
+            <div class="icon1" aria-expanded="false" aria-label="Main menu" role="button">
+                <img src="menu-of-three-lines.png" class="img1">
+            </div>
+            <div class="icon1_2" aria-label="Keep" title="keep">
+                <img src="keep notes.png" class="img2" alt="true" role="presentation">
+                <span>Keep</span>
+            </div>
+        </div>
+        <div class="nav2">
+            <button class="btn2" aria-label="Search" role="button">
+                <img src="loupe.png" class="img3">
+            </button>
+            <input class="search1" aria-label="Search" autocomplete="off" placeholder="Search" role="combobox"
+                type="text">
+            
+        </div>
+        <div class="nav3">
+            <div role="button" class="reload" tabindex="0" aria-label="Refresh" style="user-select: none;">
+                <img src="reload.png" class="img4">
+            </div>
+            <div role="button" class="settings" tabindex="0" aria-label="Settings" style="user-select: none;">
+                <img src="settings.png" class="img5">
+            </div>
+        </div>
+        <div class="nav4">
+            <div class="nav4_1">
+                <a class="link1" aria-label="Google apps" href="https://www.google.co.in/intl/en/about/products"
+                    role="button">
+                    <img src="menu.png" class="img6">
+                </a>
+            </div>
+            <div class="nav4_2">
+                <a class="link2" aria-label="Google Account"
+                    href="https://accounts.google.com/SignOutOptions?h1=en&continue=https://keep.google.com/&ec=GBRAiAE"
+                    role="button">
+                    <img src="profile-user.png " class="img7">
+                </a>
+            </div>
+        </div>
+    </header>
+    
+    <div class="notes-container">
+
+        <div class="div1">
+            <div class="icon2" role="button" tabindex="0" aria-label="Notes">
+                <img src="keep.png" class="img8">
+                <!-- <span class="text1">Notes</span> -->
+            </div>
+            <div class="icon3" role="button" tabindex="0" aria-label="Reminders" aria-expanded="">
+                <img src="notification.png" class="img8">
+                <!-- <span class="text2">Reminders</span> -->
+            </div>
+            <div class="icon4">
+                <div class="icon4_1" role="button" tabindex="0" aria-label="Direction Is More Imp Than Speed">
+                    <img src="right-arrow.png" class="img8">
+                    <!-- <span class="text3">Direction Is More Imp Than Speed</span> -->
+                </div>
+                <div class="icon4_2" role="button" aria-label="Edit Labels">
+                    <img src="pencil.png" class="img8">
+                    <!-- <span class="text4">Edit Labels</span> -->
+                </div>
+            </div>
+            <div class="icon5" role="button" tabindex="0" aria-label="Archive">
+                <img src="download-file.png" class="img8">
+                <!-- <span class="text5">Archive</span> -->
+            </div>
+            <div class="icon6" role="button" tabindex="0" aria-label="Trash">
+                <img src="recycle-bin.png" class="img8">
+                <!-- <span class="text6">Trash</span> -->
+            </div>
+        </div>
+        <input type="text" class="input" id="input-box" placeholder="Take a note..." spellcheck="false">
+        <div class="btn-div">
+                <button class="learn-more" class="add" id="add">
+                  <span class="circle" aria-hidden="true">
+                    <span class="icon arrow"></span>
+                  </span>
+                  <span class="button-text">Add note</span>
+                </button>
+              </div>  
+              <div id = "note-container"></div>
+    </div>
+</body>
+</html>
